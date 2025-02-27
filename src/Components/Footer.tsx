@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-      <div className="flex bg-[#241E24] py-10 px-20 justify-between text-white">
+      <div className="flex bg-[#241E24] flex-col md:flex-row  py-10 px-20 justify-between text-white">
           <p>Copyright <span className="text-purple-300">©</span> 2024 DcodeBlock</p>
           <div className="flex gap-4">
               <p className="text-medium">Help Center</p>

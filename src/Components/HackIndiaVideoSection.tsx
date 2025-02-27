@@ -25,7 +25,7 @@ const HackIndiaVideoSection = () => {
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         viewport={{ once: true }}
-                    className="text-white py-10 px-30 flex flex-col"
+                    className="text-white py-10 md:px-30 px-5 flex flex-col"
                     >
                         <div className="">
                             <h2 className="text-5xl text-start font-bold neon-text">150+</h2>
@@ -63,10 +63,10 @@ const HackIndiaVideoSection = () => {
                     </motion.div>
                 </section>
             </div>
-            <div className="w-full flex justify-between bg-[#D9D9D9] px-5 ">
+            <div className="w-full  flex flex-wrap justify-between bg-[#D9D9D9] px-5 ">
                 {logos.map((item)=>{
                     return(
-                        <motion.img whileHover={{scale: 1}} src={item} alt='sponsers-logo'/>
+                        <img src={item} alt='sponsers-logo'/>
                     )
                 })}
                 
