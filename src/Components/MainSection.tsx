@@ -14,7 +14,7 @@ const MainSection = () => {
         logos4
     ]
     return (
-        <section className="bg-black flex justify-center flex-col gap-4 items-center text-white text-center py-10">
+        <section className="bg-image flex justify-center flex-col gap-4 items-center text-white text-center py-10">
             <img src={Singularity} />
             <motion.h1
                 className="text-4xl md:text-6xl font-bold shadow-md neon-header"
