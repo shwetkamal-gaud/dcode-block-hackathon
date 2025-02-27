@@ -14,7 +14,7 @@ const Carousel = ({ logos, speed}:{logos:string[], speed:number}) => {
               }}
           >
               {logos.map((logo, index) => (
-                  <img
+                  <img loading="lazy"
                       key={index}
                       src={logo}
                       alt={`Logo ${index}`}

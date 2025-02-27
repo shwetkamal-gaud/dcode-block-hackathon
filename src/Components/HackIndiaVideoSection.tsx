@@ -20,7 +20,7 @@ const HackIndiaVideoSection = () => {
         <div className="">
             <div className='grid bg-[#282028] md:grid-cols-2 grid-cols-1'>
                 <section className=" text-white py-16">
-                    <img src={CrackSvg} alt="" />
+                    <img loading="lazy" src={CrackSvg} alt="" />
                     <motion.div
                         initial={{ x: -100, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}

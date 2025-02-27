@@ -37,7 +37,7 @@ const Header = () => {
         <header className="w-full flex flex-col ">
             <div className='flex bg-black flex-col px-10 py-3'>
                 <div className='flex justify-between'>
-                    <img src={logo} alt='logo' />
+                    <img loading='lazy' src={logo} alt='logo' />
                     <Button  title={'Sign in'} />
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Header = () => {
             <nav className="md:mx-auto text-white shadow-lg z-50">
                 <div className="mx-auto flex justify-between gap-10 items-center p-4">
                     <div className="text-2xl font-bold flex items-center gap-3 ">
-                        <img src={HackForIndia} alt='HackForIndia' />
+                        <img loading='lazy' src={HackForIndia} alt='HackForIndia' />
                         <h1 className='capitalize' style={{ textTransform: 'capitalize' }}>HackIndia</h1>
                     </div>
                     <div className="hidden md:flex md:flex-wrap md:gap-5 md:border-3 md:px-6 py-3 md:border-gray-400/10  bg-[#28083A] rounded-lg">

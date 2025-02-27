@@ -15,7 +15,7 @@ const MainSection = () => {
     ]
     return (
         <section className="bg-image flex justify-center flex-col gap-4 items-center text-white text-center py-10">
-            <img src={Singularity} />
+            <img loading="lazy" src={Singularity} />
             <motion.h1
                 className="text-4xl md:text-6xl font-bold shadow-md neon-header"
                 initial={{ opacity: 0, y: -50 }}
