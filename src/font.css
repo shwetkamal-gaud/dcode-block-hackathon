@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Proxon";
+    src: url("./assets/fonts/Proxon.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "VTF Justina GEO";
+    src: url("./assets/fonts/VTFJustinaGEO-Regular.otf") format("opentype");
+    font-weight: 500;
+}
+
