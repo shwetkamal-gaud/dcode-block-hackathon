@@ -6,7 +6,6 @@ import Stratis from '../assets/Straits.svg'
 import Sharp from '../assets/Sharp.svg'
 import CSharp from '../assets/CSharp.svg'
 import BeyondTheCode from '../assets/BeyondTheCode.svg'
-import Carousel from "./Carousel";
 const HackIndiaVideoSection = () => {
     const logos = [
         Singularity,
