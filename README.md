@@ -1,3 +1,40 @@
+# Setup Instructions
+## Clone the Repository
+```bash
+git clone https://github.com/shwetkamal-gaud/dcode-block-hackathon.git
+```
+## Change the Directory
+```bash
+cd dcode-block-hackathon
+```
+## Install Dependencies
+```bash
+npm install
+```
+## Run the develoment server 
+```bash
+npm run dev
+```
+## Tech Stack  
+- **React + TypeScript + Vite**  
+- **Tailwind CSS**  
+- **React-Icons**
+- **Framer Motion** (Animations)
+- **Vercel** (Deployment)  
+
+## Features  
+- Responsive Design (Both for mobile and desktop devices)  
+- Scroll Animations
+
+# Deployed Link on Vercel
+```bash
+https://dcode-block-hackathon.vercel.app/
+```
+# Video Link(Loom):
+```bash
+https://www.loom.com/share/fd4ab53bc5a14b16bdff06ad02777624?sid=0b6553bd-7378-42d6-8e11-1af1ff4d9371
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
