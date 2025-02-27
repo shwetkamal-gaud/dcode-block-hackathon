@@ -25,23 +25,23 @@ const HackIndiaVideoSection = () => {
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         viewport={{ once: true }}
-                    className="text-white py-10 md:px-30 px-5 flex flex-col"
+                    className="text-white py-10 md:ps-30 ps-5 flex flex-col"
                     >
                         <div className="">
                             <h2 className="text-5xl text-start font-bold neon-text">150+</h2>
                             <p className="text-lg text-gray-300 neon-text">Universities participating</p>
                         </div>
-                        <div className="flex justify-start gap-10  mt-6">
+                        <div className="flex text-sm md:text-3xl justify-start gap-10  mt-6">
                             <div>
-                                <h2 className="text-3xl font-bold ">72+</h2>
+                                <h2 className=" font-bold ">72+</h2>
                                 <p className="text-gray-300">Judges</p>
                             </div>
                             <div>
-                                <h2 className="text-3xl font-bold ">21</h2>
+                                <h2 className="font-bold ">21</h2>
                                 <p className="text-gray-300">Hackathons</p>
                             </div>
                             <div>
-                                <h2 className="text-3xl font-bold ">36+</h2>
+                                <h2 className="font-bold ">36+</h2>
                                 <p className="text-gray-300">Great Speakers</p>
                             </div>
                         </div>

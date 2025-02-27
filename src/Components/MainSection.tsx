@@ -36,11 +36,11 @@ const MainSection = () => {
                 February 28 - September 28
             </motion.p>
             <div className=" flex gap-10">
-                <p className="text-medium"><span className="text-orange-500 ">$150+</span> Price Pool</p>
+                <p className="text-medium text-xs md:text-xl"><span className="text-orange-500 ">$150+</span> Price Pool</p>
                 <div className=" border-l-2 border-white"></div>
-                <p className="text-medium"><span className="text-orange-500 ">150+</span> Uiversity</p>
+                <p className="text-medium text-xs md:text-xl"><span className="text-orange-500 ">150+</span> Uiversity</p>
                 <div className=" border-l-2 border-white"></div>
-                <p className="text-medium"><span className="text-orange-500 ">25,000+</span> Students</p>
+                <p className="text-medium text-xs md:text-xl"><span className="text-orange-500 ">25,000+</span> Students</p>
 
             </div>
             <motion.div whileHover={{ scale: 1 }}>
