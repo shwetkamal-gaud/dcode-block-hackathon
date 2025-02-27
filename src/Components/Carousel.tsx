@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 const Carousel = ({ logos, speed}:{logos:string[], speed:number}) => {

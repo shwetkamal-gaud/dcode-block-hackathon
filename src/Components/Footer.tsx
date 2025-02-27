@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
       <div className="flex bg-[#241E24] py-10 px-20 justify-between text-white">

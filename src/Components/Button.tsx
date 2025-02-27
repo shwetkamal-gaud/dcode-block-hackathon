@@ -1,5 +1,3 @@
-
-
 const Button = ({ title }: { title: string, }) => {
   return (
     <button className="btn w-full max-w-[150px] cursor-pointer hover:#D9D9D9">

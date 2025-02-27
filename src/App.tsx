@@ -1,5 +1,3 @@
-
-import './App.css'
 import MainSection from './Components/MainSection'
 import HackIndiaVideoSection from './Components/HackIndiaVideoSection'
 

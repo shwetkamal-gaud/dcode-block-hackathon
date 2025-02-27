@@ -21,7 +21,6 @@ const MainSection = () => {
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-
             >
                 <span className="bg-orange-500 p-1 rounded">Ha</span>ckIndia2025
             </motion.h1>

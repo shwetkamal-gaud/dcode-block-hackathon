@@ -30,9 +30,7 @@ const Header = () => {
             id: 6,
             name: 'Resorces',
         },
-
     ]
-
     return (
         <header className="w-full flex flex-col ">
             <div className='flex bg-black flex-col px-10 py-3'>
@@ -61,7 +59,6 @@ const Header = () => {
                                 )
                             })
                         }
-
                     </div>
                     <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
                         {menuOpen ? <FaTimes className='cursor-pointer' size={24} /> : <FaBars className='cursor-pointer' size={24} />}
@@ -75,8 +72,6 @@ const Header = () => {
                                 <a key={item.id} href="#" className="text-white py-2 hover:border-b hover:border-white me-auto">{item.name}</a>
                             )
                         })}
-
-
                     </div>
                 )}
             </nav>

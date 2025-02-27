@@ -14,7 +14,6 @@ const HackIndiaVideoSection = () => {
         Sharp,
         CSharp,
         BeyondTheCode,
-        
     ]
     return (
         <div className="">
@@ -27,13 +26,11 @@ const HackIndiaVideoSection = () => {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         viewport={{ once: true }}
                     className="text-white py-10 px-30 flex flex-col"
-
                     >
                         <div className="">
                             <h2 className="text-5xl text-start font-bold neon-text">150+</h2>
                             <p className="text-lg text-gray-300 neon-text">Universities participating</p>
                         </div>
-
                         <div className="flex justify-start gap-10  mt-6">
                             <div>
                                 <h2 className="text-3xl font-bold ">72+</h2>
